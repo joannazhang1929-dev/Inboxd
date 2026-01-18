@@ -1,0 +1,23 @@
+.download-btn {
+  display: inline-block;
+  text-decoration:none;
+  padding: 20px 100px;
+  background: #6a8d73;
+  color: #f4fdd9;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 71%; 
+  left: 50%; 
+  transform: translateX(-50%);
+  font-size: 100%;
+  font-family:inherit;
+  : ;
+}
+
+.download-btn:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #81ac8c, #fbffef);
+}
+
