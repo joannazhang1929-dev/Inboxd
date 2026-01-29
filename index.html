@@ -235,93 +235,9 @@
             line-height: 1.8;
             color: var(--text-dark);
         }
-        </section> <!-- end of .about -->
         
-<section class="comparison">
-    <h2>What Makes Inboxd Better Than Other Email Assistants</h2>
-
-    <div class="comparison-grid">
-        <div class="comparison-card">
-            <h3>Context-Aware Replies</h3>
-            <p>
-                Inboxd understands full email threads, relationships, and intent —
-                not just keywords.
-            </p>
-        </div>
-
-        <div class="comparison-card">
-            <h3>Tone You Control</h3>
-            <p>
-                Choose how you sound every time: professional, warm, firm,
-                apologetic, or casual.
-            </p>
-        </div>
-
-        <div class="comparison-card">
-            <h3>Minimal Input Required</h3>
-            <p>
-                Write as little as 20 characters and Inboxd generates
-                a complete, polished response.
-            </p>
-        </div>
-
-        <div class="comparison-card">
-            <h3>Designed for Real People</h3>
-            <p>
-                Built for students, professionals, and teams —
-                not engineers tweaking prompts.
-            </p>
-        </div>
-    </div>
-</section>
-
         /* Features Section */
-            /* Comparison Section */
-.comparison {
-    background: var(--primary-blue);
-    padding: 8rem 4rem;
-    color: var(--light-cream);
-}
 
-.comparison h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
-    text-align: center;
-    margin-bottom: 6rem;
-    font-weight: 400;
-}
-
-.comparison-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.comparison-card {
-    border: 2px solid rgba(245, 243, 238, 0.4);
-    border-radius: 30px;
-    padding: 3rem;
-    transition: transform 0.3s, background 0.3s;
-}
-
-.comparison-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.05);
-}
-
-.comparison-card h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-}
-
-.comparison-card p {
-    font-size: 1.25rem;
-    line-height: 1.7;
-}
         .features {
             background: var(--primary-blue);
             padding: 8rem 4rem;
@@ -575,6 +491,45 @@
                 display: none;
             }
         }
+    
+        .comparison {
+  background: #2f4efc;
+  color: #f5f3ee;
+  padding: 8rem 4rem;
+}
+
+.comparison h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  margin-bottom: 6rem;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comparison-card {
+  border: 2px solid rgba(245, 243, 238, 0.4);
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+.comparison-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.9rem;
+  margin-bottom: 1.2rem;
+}
+
+.comparison-card p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
     </style>
 </head>
 <body>
@@ -642,6 +597,35 @@
             <p>Inboxd is an AI-powered email assistant designed to make professional communication effortless. It reads your incoming messages, understands your intentions, and generates context-accurate replies, saving you time while keeping your tone clear and appropriate. Whether you need to respond quickly on the go or draft polished messages for work, Inboxd helps you stay organized, prompt, and confident in every conversation.</p>
         </div>
     </section>
+
+    <!-- Comparison -->
+
+    <section class="comparison">
+  <h2>What Makes Inboxd Better</h2>
+
+  <div class="comparison-grid">
+    <div class="comparison-card">
+      <h3>Context-Aware Replies</h3>
+      <p>Inboxd understands full email threads, relationships, and intent — not just keywords.</p>
+    </div>
+
+    <div class="comparison-card">
+      <h3>Tone You Control</h3>
+      <p>Choose how you sound every time: professional, warm, firm, or casual.</p>
+    </div>
+
+    <div class="comparison-card">
+      <h3>Minimal Input</h3>
+      <p>Write a few words and Inboxd generates a complete, polished reply.</p>
+    </div>
+
+    <div class="comparison-card">
+      <h3>Built for Real Use</h3>
+      <p>Designed for students, professionals, and teams — not prompt engineers.</p>
+    </div>
+  </div>
+</section>
+
     
     <!-- Features Section -->
     <section class="features">
